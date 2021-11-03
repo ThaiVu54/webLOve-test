@@ -1,0 +1,100 @@
+@keyframes heart {
+
+    /* tao hieu ung animation */
+    50% {
+        transform: translate(-50%, -100%) scale(3, 3);
+    }
+
+    100% {
+        transform: (-50%, -50%) scale(1, 1);
+    }
+}
+
+.heart {
+    width: 200px;
+    height: 200px;
+    top: 50%;
+    left: 45%;
+    /*quy dinh hanh vi hien thi*/
+    display: block;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    animation-name: heart;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+.heart div {
+    background: rgb(37, 103, 245);
+    width: 71px;
+    height: 126px;
+    top: 40%;
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.imgmain{
+    width: 1920px;
+}
+
+.left {
+    left: 45px;
+    transform: rotate(330deg);
+}
+
+.right {
+    right: 45px;
+    transform: rotate(30deg);
+}
+
+.img {
+    top: 100%;
+    left: 300px;
+    width: auto;
+    height: auto;
+    display: inline;
+    align-items: center;
+}
+
+#imgleft {
+    /* background-image: url(/nam.jpg); */
+    width: 700px;
+    height: 700px;
+    margin-left: 200px;
+    background-size: cover;
+}
+
+#imgright {
+    /* background-image: url(/nu.jpg); */
+    width: 700px;
+    height: 700px;
+    margin-left: 400px;
+    background-size: cover;
+}
+
+.container_swap {
+
+    width: 1920px;
+
+}
+
+.div_left {
+
+    width: 900px;
+
+    float: left;
+
+    text-align: center;
+
+}
+
+.div_right {
+
+    width: 1000px;
+
+    float: left;
+
+    text-align: center;
+
+}
